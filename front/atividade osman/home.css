@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color:#FEFAE0;
+}
+/*-Inicio Header-*/
+header{
+    background-color: #CCD5AE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.cadastre-se{
+    margin-right: 5%;
+    font-size: xx-small;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.cadastre-se a:visited{
+    color: black;
+  text-decoration: none;
+}
+.cadastre-se a:hover{
+    color: #FEFAE0;
+    text-decoration: none;
+}  
+  a {
+    text-transform:uppercase;
+    text-decoration: none;
+  }
+/*-Final Header-*/
+.txtbox{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 20px;
+    
+    
+}
+
+.box{
+    display: inline-block;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 35px;
+    margin-top: 5%;
+}
+#box1{
+    background-image: url('Imgs/foto\ 2.jpeg');
+    margin-left: 5%;
+}
+#box2{
+    background-image: url('Imgs/foto\ 1.jpeg');
+    margin-left: 5%;
+}
+#box3{
+    background-image: url('Imgs/imagem\ 1.jpg');
+    margin-left: 5%;
+}
+.box2{
+    display: inline-block;
+    width: 25%;
+    height: 10%;
+    border: 3px solid #CCD5AE;
+    border-radius: 35px;
+    background-color: #CCD5AE;
+
+
+}
+#box4{
+    margin-left: 5%;
+}
+#box5{
+    margin-left: 6.5%;
+}
+#box6{
+    margin-left: 6%;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #E9EDC9;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: all 0.3s ease-in-out;
+  }
+  .sidebar-toggle-label {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  input[type="checkbox"]:checked + .sidebar {
+    left: 0;
+  }
+  li{
+    margin-left: 10px;
+    height: 10px;
+    margin-top: 30%;
+  }
+.box{
+    color: black;
+  background-color: black;
+ }
+  
+ 
+  
